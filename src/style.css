@@ -1,0 +1,59 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu ul li {
+    font-size: 15px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+    margin-right: 30px;
+    padding: 10px;
+}
+
+.menu .item-2 {
+    background-color:rgba(91, 194, 65, 1);
+    color: white;
+
+}
+
+.menu .item-6 {
+    background-color: rgba(91, 194, 65, 1);
+    color: white;
+    border-radius: 10px;
+}
+
+@media(max-width:920px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    .menu ul li {
+        font-size: 30px;
+    }
+}
